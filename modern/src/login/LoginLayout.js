@@ -48,7 +48,7 @@ const LoginLayout = ({ children }) => {
   return (
     <main className={classes.root}>
       <div className={classes.sidebar}>
-        {!useMediaQuery(theme.breakpoints.down('lg')) && <LogoImage color={theme.palette.secondary.contrastText} />}
+        {!useMediaQuery(theme.breakpoints.down('lg')) && <h1>1662 TRACKING CO.</h1>}
       </div>
       <Paper className={classes.paper}>
         <form className={classes.form}>
